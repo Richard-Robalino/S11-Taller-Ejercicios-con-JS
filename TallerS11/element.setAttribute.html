@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>setAttribute Example</title>
+</head>
+<body>
+    <img id="myImage" src="https://via.placeholder.com/150" alt="Imagen original">
+    <button onclick="changeAttribute()">Cambiar atributo</button>
+
+    <script>
+        function changeAttribute() {
+            let element = document.getElementById("myImage");
+            element.setAttribute("src", "https://via.placeholder.com/300");
+            element.setAttribute("alt", "Imagen cambiada");
+        }
+    </script>
+</body>
+</html>

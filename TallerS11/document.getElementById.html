@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>getElementById Example</title>
+</head>
+<body>
+    <p id="myParagraph">Este es un párrafo.</p>
+    <button onclick="changeText()">Cambiar texto</button>
+
+    <script>
+        function changeText() {
+            let element = document.getElementById("myParagraph");
+            element.innerHTML = "El texto ha sido cambiado!";
+        }
+    </script>
+</body>
+</html>

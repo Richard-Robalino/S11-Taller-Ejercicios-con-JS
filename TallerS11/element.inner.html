@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>innerHTML Example</title>
+</head>
+<body>
+    <div id="myDiv">Contenido original del div.</div>
+    <button onclick="insertHTML()">Insertar HTML</button>
+
+    <script>
+        function insertHTML() {
+            let element = document.getElementById("myDiv");
+            element.innerHTML = "<strong>Nuevo contenido del div.</strong>";
+        }
+    </script>
+</body>
+</html>
